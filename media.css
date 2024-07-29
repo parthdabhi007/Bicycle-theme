@@ -1,0 +1,177 @@
+/* xs mobile */
+@media (max-width:575px) {
+    .home-text{
+        padding: 30px;
+    }
+    .home-text p{
+        font-size: 15px;
+        padding-top: 5px;
+    }
+    .home-text h2{
+        font-size: 30px;
+    }
+    .bicycle-img{
+        padding: 10px 50px;
+    }
+    .about-text h2{
+        margin: 30px 0;
+        font-size: 27px;
+    }
+    .linebox{
+        display: none;
+    }
+    .gallery-heading h2{
+        font-size: 45px;
+    }
+    .fa-solid{
+        font-size: 35px;
+        color: white;
+    }
+    .box-text p{
+        padding: 15px 65px;
+    }
+    .page-box{
+        background-color: #035392;
+        height: 100%;
+        color: #fff;
+    }
+}
+
+/* sm mobile */
+@media (min-width:576px) {
+    .home-text{
+        padding: 30px;
+    }
+    .home-text p{
+        font-size: 18px;
+    }
+    .home-text h2{
+        font-size: 35px;
+        
+    }
+    .bicycle-img{
+        padding: 20px 60px;
+    }
+    .about-text h2{
+        font-size: 35px;
+    }
+    .about-text p{
+        font-size: 20px;
+    }
+    .linebox{
+        display: none;
+    }
+    .gallery-heading h2{
+        font-size: 45px;
+        text-align: center;
+    }
+    .box-text p{
+        padding: 15px 65px;
+    }
+    .fa-solid{
+        font-size: 35px;
+        color: white;
+    }
+    .page-box{
+        background-color: #035392;
+        height: 100%;
+        color: #fff;
+    }
+}
+
+/* md tablet */
+@media (min-width:768px) {
+    .bicycle-img{
+        padding: 25px 80px;
+    }
+    .home-text{
+        padding: 30px 70px;
+    }
+    .home-text p{
+        font-size: 20px;
+    }
+    .gallery-heading h2{
+        text-align: center;
+        font-size: 45px;
+    }
+}
+
+/* lg laptop */
+@media (min-width:992px) {
+    .bicycle-img{
+        padding: 95px 80px;
+    }
+    .home-text{
+        padding: 0px 70px;
+        margin-bottom: 150px;
+    }
+    .home-text p{
+        font-size: 15px;
+    }
+    .about-text p{
+        font-size: 17px;
+    }
+    .gallery-heading h2 {
+        font-size: 35px;
+    }
+    .linebox{
+        display: block;
+    }
+    .box-text p{
+        padding: 15px 55px;
+        font-size: 13   px;
+    }
+    .fa-solid{
+        font-size: 30px;
+    }
+    .page-box{
+        background-color: #035392;
+        height: 93%;
+        color: #fff;
+    }
+
+}
+
+/* xl desktop */
+@media (min-width:1200px) {
+    .bicycle-img{
+        padding: 95px 80px;
+    }
+    .home-text p{
+        font-size: 20px;
+    }
+    .home-text h2{
+        font-size: 45px;  
+        padding-bottom: 10px;
+    }
+    .about-text p{
+        font-size: 20px;
+    }
+    .page-box{
+        background-color: #035392;
+        height: 94%;
+        color: #fff;
+    }
+    .fa-solid{
+        font-size: 36px;
+    }
+}
+
+/* xxl large desktop */
+@media (min-width:1400px) {
+    .bicycle-img{
+        padding: 95px 70px;
+    }
+    .page-box{
+        background-color: #035392;
+        height: 95%;
+        color: #fff;
+    }
+    .box-text p{
+        font-size: 18px;
+    }
+    .fa-solid{
+        font-size: 40px;
+    }
+
+}

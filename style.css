@@ -1,0 +1,229 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.container-header {
+  max-width: 1440px;
+  margin: auto;
+}
+
+.logo-text {
+  color: #035392;
+  font-family: "Alex Brush", cursive;
+  font-size: 30px;
+}
+
+.nav-link:hover {
+  color: #035392;
+}
+
+.road-img {
+  background-image: url(/image/road.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  width: 100%;
+  margin-top: 250px;
+}
+
+.home-text h2 {
+  color: #035392;
+}
+
+.home-btn {
+  display: inline-block;
+  padding: 10px 35px 10px 25px;
+  text-decoration: none;
+  color: #fff;
+  position: relative;
+  margin-left: 20px;
+}
+.home-btn > span {
+  position: relative;
+  z-index: 5;
+}
+.home-btn:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transform: skewX(40deg);
+  background-color: #035392;
+}
+.home-btn:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -23px;
+  bottom: 0;
+  width: 45px;
+  z-index: 8;
+  background-color: #035392;
+}
+
+.container-home {
+  max-width: 1440px;
+}
+
+.about-text h2 {
+  color: #035392;
+}
+
+.blog {
+  position: relative;
+}
+
+.bolg-text-1 p {
+  position: absolute;
+  top: 40px;
+  right: 15px;
+}
+
+.bolg-text-2 p {
+  position: absolute;
+  top: 40px;
+  left: 15px;
+}
+
+.box {
+  border: 1px solid black;
+  width: 100%;
+  height: 330px;
+  position: relative;
+}
+
+.gallery-img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 0 10px;
+}
+
+.gallery-text {
+  text-align: center;
+}
+.gallery-text h2 {
+  color: #035392;
+}
+
+.gallery-heading h2 {
+  color: #035392;
+}
+
+.latest {
+  padding-bottom: 50px;
+}
+
+.line {
+  content: " ";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background: black;
+  top: 70px;
+}
+
+.linebox {
+  position: relative;
+}
+
+.fa-reply:hover {
+  transform: rotate(-360deg);
+  color: #003762;
+  transition: all 1s;
+}
+
+.fa-share:hover {
+  transform: rotate(360deg);
+  color: #003762;
+  transition: all 1s;
+}
+
+.box-content, .box-text {
+  text-align: center;
+}
+
+.box-content {
+  padding: 25px;
+}
+
+.box-text span {
+  color: rgb(151, 151, 151);
+}
+
+.blog-box {
+  border: 1px solid #fff;
+}
+
+.blog-text {
+  padding: 13px;
+}
+.blog-text p {
+  font-size: 13px;
+  color: #9f9f9f;
+}
+.blog-text:hover {
+  border: 1px solid #035392;
+}
+
+.footer {
+  padding: 40px 0;
+}
+
+.footer-content a {
+  text-decoration: none;
+  display: block;
+  color: #a3a3a3;
+  margin-bottom: 15px;
+}
+
+.footer-content a:hover, .footer-content i:hover {
+  color: #fff;
+}
+
+.footer-content i {
+  padding-right: 5px;
+  font-size: 20px;
+}
+
+.fa-angle-right {
+  color: #a3a3a3;
+}
+
+.footer-icon {
+  cursor: pointer;
+  text-align: center;
+}
+
+.footer-heading {
+  color: #fff;
+  padding-bottom: 15px;
+}
+
+.logo-footer-text {
+  font-family: "Alex Brush", cursive;
+  font-size: 30px;
+  color: #fff;
+}
+
+.copyright {
+  color: #464646;
+}
+.copyright h5 {
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.copyright h5 .fa-copyright {
+  font-size: 12px;
+}/*# sourceMappingURL=style.css.map */
